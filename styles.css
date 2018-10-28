@@ -1,0 +1,101 @@
+body {
+    background: #333333;
+    font-family: 'Raleway', arial, sans-serif;
+    color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    color: #36d4e4;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+p {
+    font-weight: 200;
+    font-size: 1.2em;
+    line-height: 1.35em;
+}
+
+#container {
+    max-width: 480px;
+    padding: 0 20px;
+    margin: 10% auto 0;
+    text-align: center;
+}
+
+#container h1 a {
+    width: 128px;
+    height: 128px;
+    display: block;
+    text-indent: -9999px;
+    background: url('images/logo.png') no-repeat left top;
+    margin: 35px auto;
+}
+
+#container h1 a:hover {
+    background-position: -128px 0px;
+}
+
+.colored {
+    color: #36d4e4;
+}
+
+.title-paragraph {
+    font-family: 'Courgette', arial, sans-serif;
+    margin-bottom: 35px;
+    font-size: 2em;
+}
+
+ul {
+    margin-top: 35px;
+    display: block;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.email {
+    background: url('images/email.png') no-repeat left top;
+}
+
+a.icon:hover {
+    background-position: -32px 0px;
+}
+
+.linkedin {
+    background: url('images/linkedin.png') no-repeat left top;
+}
+
+.github {
+    background: url('images/github.png') no-repeat left top;
+}
+
+.facebook {
+    background: url('images/facebook.png') no-repeat left top;
+}
+
+.youtube {
+    background: url('images/youtube.png') no-repeat left top;
+}
